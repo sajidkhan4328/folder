@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Student [
+<!ELEMENT Student (name*, age, marks, fees, class)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT marks (#PCDATA)>
+<!ELEMENT fees (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+
+]>
+
+
+<Student>
+    <age>35</age>
+    <marks>100</marks>
+    <fees>50000</fees>
+    <class>9th</class>
+</Student>
